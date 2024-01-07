@@ -15,22 +15,28 @@ h1 {
   width: 75%;
 }
 
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
 footer {
   text-align: right;
   color: midnightblue;
   clear: both;
 }
-@media (min-width:900px) 
-{.right {
-  float: right;
-  width: 50%;
+@media (min-width: 900px) {
+  .right {
+    float: right;
+    width: 50%;
+  }
+  .left {
+    float: left;
+    width: 50%;
+  }
+  .tile-image {
+    float: left;
+    width: 50%;
+    padding-right: 5%;
+  }
 }
-.left {
-  float: left;
-  width: 50%;
-}
-.tile-image {
-  float: left;
-  width: 50%;
-  padding-right: 5%;
-}}
